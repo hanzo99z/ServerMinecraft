@@ -1,0 +1,94 @@
+[08:27:15] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[08:27:15] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[08:27:15] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[08:27:15] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[08:27:16] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
+[08:27:21] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08:27:22] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[08:27:22] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[08:27:23] [ServerMain/INFO]: No existing world data, creating new world
+[08:27:24] [ServerMain/INFO]: Loaded 1290 recipes
+[08:27:24] [ServerMain/INFO]: Loaded 1399 advancements
+[08:27:25] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 8718ms.
+[08:27:25] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[08:27:25] [Server thread/INFO]: Loading properties
+[08:27:25] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[08:27:26] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[08:27:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:27:26] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:27:26] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[08:27:26] [Server thread/INFO]: Default game type: SURVIVAL
+[08:27:26] [Server thread/INFO]: Generating keypair
+[08:27:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:27:27] [Server thread/INFO]: Using epoll channel type
+[08:27:27] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[08:27:27] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[08:27:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:27:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:27:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:27:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:27:27] [Server thread/INFO]: Preparing level "world"
+[08:27:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:27:44] [Server thread/INFO]: Time elapsed: 5828 ms
+[08:27:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[08:27:46] [Server thread/INFO]: Time elapsed: 1869 ms
+[08:27:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[08:27:46] [Server thread/INFO]: Time elapsed: 584 ms
+[08:27:46] [Server thread/INFO]: [spark] Starting background profiler...
+[08:27:46] [Server thread/INFO]: Done preparing level "world" (19.790s)
+[08:27:46] [Server thread/INFO]: Running delayed init tasks
+[08:27:46] [Server thread/INFO]: Done (32.472s)! For help, type "help"
+[08:27:46] [Server thread/INFO]: *************************************************************************************
+[08:27:46] [Server thread/INFO]: This is the first time you're starting this server.
+[08:27:46] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
+[08:27:46] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
+[08:27:46] [Server thread/INFO]: *************************************************************************************
+[08:27:46] [Server thread/INFO]: Timings Reset
+[08:29:01] [User Authenticator #0/INFO]: UUID of player hontaryu is 4748979e-918f-378c-a2c3-c90c20d71acb
+[08:29:02] [Server thread/INFO]: hontaryu joined the game
+[08:29:02] [Server thread/INFO]: hontaryu[/127.235.186.1:45441] logged in with entity id 39 at ([world]-264.5, 66.0, -154.5)
+[08:29:33] [Server thread/INFO]: hontaryu lost connection: Disconnected
+[08:29:33] [Server thread/INFO]: hontaryu left the game
+[08:30:23] [User Authenticator #1/INFO]: UUID of player hontaryu is 4748979e-918f-378c-a2c3-c90c20d71acb
+[08:30:24] [Server thread/INFO]: hontaryu joined the game
+[08:30:24] [Server thread/INFO]: hontaryu[/127.235.186.1:45443] logged in with entity id 280 at ([world]-209.99739372565955, 63.0, -138.866630765492)
+[08:30:31] [Server thread/INFO]: hontaryu lost connection: Disconnected
+[08:30:31] [Server thread/INFO]: hontaryu left the game
+[08:30:56] [User Authenticator #1/INFO]: UUID of player hontaryu is 4748979e-918f-378c-a2c3-c90c20d71acb
+[08:30:57] [Server thread/INFO]: hontaryu joined the game
+[08:30:57] [Server thread/INFO]: hontaryu[/127.235.186.1:60097] logged in with entity id 324 at ([world]-227.00694045575858, 67.0, -126.58960743145308)
+[08:31:09] [Server thread/INFO]: hontaryu lost connection: Disconnected
+[08:31:09] [Server thread/INFO]: hontaryu left the game
+[08:31:11] [User Authenticator #1/INFO]: UUID of player hontaryu is 4748979e-918f-378c-a2c3-c90c20d71acb
+[08:31:12] [Server thread/INFO]: hontaryu joined the game
+[08:31:12] [Server thread/INFO]: hontaryu[/127.235.186.1:47363] logged in with entity id 428 at ([world]-264.69999998807907, 74.0, -106.69999998807907)
+[08:31:18] [Server thread/INFO]: hontaryu lost connection: Disconnected
+[08:31:18] [Server thread/INFO]: hontaryu left the game
+[08:31:20] [User Authenticator #1/INFO]: UUID of player hontaryu is 4748979e-918f-378c-a2c3-c90c20d71acb
+[08:31:20] [Server thread/INFO]: hontaryu joined the game
+[08:31:20] [Server thread/INFO]: hontaryu[/127.235.186.1:47591] logged in with entity id 443 at ([world]-257.86710823590516, 69.0, -118.62192873828455)
+[08:31:40] [Server thread/INFO]: hontaryu lost connection: Disconnected
+[08:31:40] [Server thread/INFO]: hontaryu left the game
+[08:32:17] [Server thread/INFO]: Stopping the server
+[08:32:17] [Server thread/INFO]: Stopping server
+[08:32:17] [Server thread/INFO]: Saving players
+[08:32:17] [Server thread/INFO]: Saving worlds
+[08:32:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:32:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[08:32:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[08:32:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[08:32:18] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 786 entity chunks, 8 poi chunks in world 'world' in 1.26s
+[08:32:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[08:32:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[08:32:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[08:32:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[08:32:19] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.33s
+[08:32:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[08:32:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[08:32:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[08:32:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[08:32:19] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.34s
+[08:32:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:32:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:32:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:32:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
