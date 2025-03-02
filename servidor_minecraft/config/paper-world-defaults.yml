@@ -49,11 +49,6 @@ anticheat:
     - deepslate
     update-radius: 2
     use-permission: false
-  obfuscation:
-    items:
-      hide-durability: false
-      hide-itemmeta: false
-      hide-itemmeta-with-visual-effects: false
 chunks:
   auto-save-interval: default
   delay-chunk-unloads-by: 10s
@@ -84,6 +79,7 @@ entities:
   behavior:
     allow-spider-world-border-climbing: true
     baby-zombie-movement-modifier: 0.5
+    cooldown-failed-beehive-releases: true
     disable-chest-cat-detection: false
     disable-creeper-lingering-effect: false
     disable-player-crits: false
@@ -126,7 +122,6 @@ entities:
     spawner-nerfed-mobs-should-jump: false
     zombie-villager-infection-chance: default
     zombies-target-turtle-eggs: true
-  entities-target-with-follow-range: false
   markers:
     tick: true
   mob-effects:
@@ -171,6 +166,9 @@ entities:
       water_creature:
         hard: default
         soft: default
+    despawn-time:
+      llama_spit: disabled
+      snowball: disabled
     disable-mob-spawner-spawn-egg-transformation: false
     duplicate-uuid:
       mode: SAFE_REGEN
@@ -230,7 +228,6 @@ entities:
 environment:
   disable-explosion-knockback: false
   disable-ice-and-snow: false
-  disable-teleportation-suffocation-check: false
   disable-thunder: false
   fire-tick-delay: 30
   frosted-ice:
@@ -252,6 +249,8 @@ environment:
     find-already-discovered:
       loot-tables: default
       villager-trade: false
+  void-damage-amount: 4.0
+  void-damage-min-build-height-offset: -64.0
   water-over-lava-flow-speed: 5
 feature-seeds:
   generate-random-seeds-for-all: false
@@ -259,7 +258,7 @@ fishing-time-range:
   maximum: 600
   minimum: 100
 fixes:
-  disable-unloaded-chunk-enderpearl-exploit: true
+  disable-unloaded-chunk-enderpearl-exploit: false
   falling-block-height-nerf: disabled
   fix-items-merging-through-walls: false
   prevent-tnt-from-moving-in-water: false
@@ -277,6 +276,7 @@ lootables:
   reset-seed-on-fill: true
   restrict-player-reloot: true
   restrict-player-reloot-time: disabled
+  retain-unlooted-shulker-box-loot-table-on-non-player-break: true
 maps:
   item-frame-cursor-limit: 128
   item-frame-cursor-update-interval: 10
@@ -291,7 +291,7 @@ misc:
   disable-end-credits: false
   disable-relative-projectile-velocity: false
   disable-sprint-interruption-on-attack: false
-  light-queue-size: 20
+  legacy-ender-pearl-behavior: false
   max-leash-distance: default
   redstone-implementation: VANILLA
   shield-blocking-delay: 5

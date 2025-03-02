@@ -18,9 +18,9 @@ messages:
   outdated-server: Outdated server! I'm still on {0}
   restart: Server is restarting
 settings:
+  sample-count: 12
   bungeecord: false
   save-user-cache-on-stop-only: false
-  sample-count: 12
   player-shuffle: 0
   user-cache-size: 1000
   moved-wrongly-threshold: 0.0625
@@ -33,9 +33,9 @@ settings:
     maxAbsorption:
       max: 2048.0
     maxHealth:
-      max: 2048.0
+      max: 1024.0
     movementSpeed:
-      max: 2048.0
+      max: 1024.0
     attackDamage:
       max: 2048.0
   log-villager-deaths: true
@@ -63,11 +63,6 @@ world-settings:
     view-distance: default
     simulation-distance: default
     thunder-chance: 100000
-    merge-radius:
-      item: 0.5
-      exp: -1.0
-    mob-spawn-range: 8
-    item-despawn-rate: 6000
     arrow-despawn-rate: 1200
     trident-despawn-rate: 1200
     zombie-aggressive-towards-villager: true
@@ -138,6 +133,11 @@ world-settings:
       hopper-check: 1
     hopper-amount: 1
     hopper-can-load-chunks: false
+    merge-radius:
+      item: 0.5
+      exp: -1.0
+    mob-spawn-range: 8
+    item-despawn-rate: 6000
     dragon-death-sound-radius: 0
     seed-village: 10387312
     seed-desert: 14357617
