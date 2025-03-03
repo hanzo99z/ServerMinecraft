@@ -1,99 +1,95 @@
-[08:51:11] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[08:51:11] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-187-main@1d5e5a5 (2025-02-28T19:53:30Z) for Minecraft 1.21.4
-[08:51:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[08:51:11] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[08:51:12] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Remapping server...
-[08:51:20] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Done remapping server in 8524ms.
-[08:51:20] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[08:51:21] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[08:51:21] [ServerMain/INFO]: Found new data pack paper, loading it automatically
-[08:51:22] [ServerMain/INFO]: No existing world data, creating new world
-[08:51:22] [ServerMain/INFO]: Loaded 1370 recipes
-[08:51:22] [ServerMain/INFO]: Loaded 1481 advancements
-[08:51:22] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[08:51:23] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 266.9ms
-[08:51:23] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[08:51:23] [Server thread/INFO]: Loading properties
-[08:51:23] [Server thread/INFO]: This server is running Paper version 1.21.4-187-main@1d5e5a5 (2025-02-28T19:53:30Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[08:51:23] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[08:51:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[08:51:23] [Server thread/INFO]: Using 4 threads for Netty based IO
-[08:51:24] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[08:51:24] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[08:51:24] [Server thread/INFO]: Default game type: SURVIVAL
-[08:51:24] [Server thread/INFO]: Generating keypair
-[08:51:24] [Server thread/INFO]: Starting Minecraft server on *:25565
-[08:51:24] [Server thread/INFO]: Using epoll channel type
-[08:51:24] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[08:51:24] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[08:51:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[08:51:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[08:51:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[08:51:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[08:51:24] [Server thread/INFO]: Preparing level "world"
-[08:51:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[08:51:34] [Server thread/INFO]: Preparing spawn area: 0%
-[08:51:35] [Server thread/INFO]: Preparing spawn area: 2%
-[08:51:35] [Server thread/INFO]: Preparing spawn area: 2%
-[08:51:36] [Server thread/INFO]: Preparing spawn area: 2%
-[08:51:36] [Server thread/INFO]: Preparing spawn area: 18%
-[08:51:37] [Server thread/INFO]: Preparing spawn area: 18%
-[08:51:37] [Server thread/INFO]: Preparing spawn area: 18%
-[08:51:38] [Server thread/INFO]: Preparing spawn area: 32%
-[08:51:38] [Server thread/INFO]: Preparing spawn area: 51%
-[08:51:39] [Server thread/INFO]: Preparing spawn area: 51%
-[08:51:39] [Server thread/INFO]: Preparing spawn area: 53%
-[08:51:40] [Server thread/INFO]: Preparing spawn area: 57%
-[08:51:40] [Server thread/INFO]: Preparing spawn area: 75%
-[08:51:40] [Server thread/INFO]: Time elapsed: 6048 ms
-[08:51:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[08:51:40] [Server thread/INFO]: Preparing spawn area: 2%
-[08:51:41] [Server thread/INFO]: Preparing spawn area: 18%
-[08:51:41] [Server thread/INFO]: Preparing spawn area: 51%
-[08:51:42] [Server thread/INFO]: Time elapsed: 1414 ms
-[08:51:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[08:51:42] [Server thread/INFO]: Preparing spawn area: 2%
-[08:51:42] [Server thread/INFO]: Preparing spawn area: 75%
-[08:51:42] [Server thread/INFO]: Time elapsed: 505 ms
-[08:51:42] [Server thread/INFO]: [spark] Starting background profiler...
-[08:51:42] [Server thread/INFO]: Done preparing level "world" (18.313s)
-[08:51:42] [Server thread/INFO]: Running delayed init tasks
-[08:51:42] [Server thread/INFO]: Done (31.883s)! For help, type "help"
-[08:51:42] [Server thread/INFO]: *************************************************************************************
-[08:51:42] [Server thread/INFO]: This is the first time you're starting this server.
-[08:51:42] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
-[08:51:42] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
-[08:51:42] [Server thread/INFO]: *************************************************************************************
-[08:51:58] [Server thread/INFO]: Stopping the server
-[08:51:58] [Server thread/INFO]: Stopping server
-[08:51:58] [Server thread/INFO]: Saving players
-[08:51:58] [Server thread/INFO]: Saving worlds
-[08:51:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[08:51:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[08:51:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[08:51:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[08:51:59] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 1 poi chunks in world 'world' in 1.31s
-[08:51:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[08:51:59] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[08:51:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[08:51:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[08:51:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[08:51:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[08:52:00] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.33s
-[08:52:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[08:52:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[08:52:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[08:52:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[08:52:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[08:52:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[08:52:00] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.28s
-[08:52:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[08:52:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[08:52:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[08:52:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[08:52:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[08:52:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[08:52:00] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[08:52:00] [Server thread/INFO]: All I/O tasks to complete
-[08:52:00] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[08:52:00] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[02:51:53] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[02:51:53] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-187-main@1d5e5a5 (2025-02-28T19:53:30Z) for Minecraft 1.21.4
+[02:51:53] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:51:54] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
+[02:51:54] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - vzBackpack (0.9.1-alpha)
+[02:51:54] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+ - Geyser-Spigot (2.6.1-SNAPSHOT), Pl3xMap (1.21.4-521), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
+[02:51:59] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:52:01] [ServerMain/INFO]: Loaded 1370 recipes
+[02:52:01] [ServerMain/INFO]: Loaded 1481 advancements
+[02:52:01] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[02:52:01] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 200.2ms
+[02:52:02] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[02:52:02] [Server thread/INFO]: Loading properties
+[02:52:02] [Server thread/INFO]: This server is running Paper version 1.21.4-187-main@1d5e5a5 (2025-02-28T19:53:30Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[02:52:02] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[02:52:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:52:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:52:03] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[02:52:03] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[02:52:03] [Server thread/INFO]: Default game type: SURVIVAL
+[02:52:03] [Server thread/INFO]: Generating keypair
+[02:52:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:52:03] [Server thread/INFO]: Using epoll channel type
+[02:52:03] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[02:52:03] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[02:52:03] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[02:52:04] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[02:52:04] [Server thread/INFO]: [floodgate] Took 973ms to boot Floodgate
+[02:52:04] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.1-SNAPSHOT
+[02:52:05] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[02:52:05] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[02:52:05] [Server thread/INFO]: [Pl3xMap] Loading server plugin Pl3xMap v1.21.4-521
+[02:52:05] [Server thread/INFO]: [vzBackpack] Loading server plugin vzBackpack v0.9.1-alpha
+[02:52:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:52:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:52:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:52:05] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:52:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:52:05] [Server thread/INFO]: Preparing level "world"
+[02:52:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:52:06] [Server thread/INFO]: Preparing spawn area: 0%
+[02:52:07] [Server thread/INFO]: Preparing spawn area: 0%
+[02:52:07] [Server thread/INFO]: Time elapsed: 967 ms
+[02:52:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:52:07] [Server thread/INFO]: Preparing spawn area: 0%
+[02:52:07] [Server thread/INFO]: Time elapsed: 232 ms
+[02:52:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:52:07] [Server thread/INFO]: Preparing spawn area: 0%
+[02:52:07] [Server thread/INFO]: Time elapsed: 207 ms
+[02:52:07] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[02:52:08] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.1-SNAPSHOT
+[02:52:08] [Server thread/INFO]: [Pl3xMap] Enabling Pl3xMap v1.21.4-521
+[02:52:10] [Server thread/INFO]: [Pl3xMap] [INFO] Internal webserver running on 0.0.0.0:8080
+[02:52:10] [Server thread/INFO]: [Pl3xMap] [INFO] Platform: paper
+[02:52:10] [Server thread/INFO]: [Pl3xMap] [INFO] Version: 1.21.4-521
+[02:52:10] [Server thread/INFO]: [vzBackpack] Enabling vzBackpack v0.9.1-alpha
+[02:52:11] [Server thread/INFO]: 
+
+                                                                                      
+                      _____                 _                           _             
+               _____ (_____)               (_) _                       (_) _          
+         _   _(_____)(_)__(_)  ____    ___ (_)(_)  ____    ____    ___ (_)(_)         
+        (_) (_) _(_) (_____)  (____) _(___)(___)  (____)  (____) _(___)(___)          
+        (_)_(_)(_)__ (_)__(_)( )_( )(_)___ (_)(_) (_)_(_)( )_( )(_)___ (_)(_)         
+          (_) (_____)(_____)  (__)_) (____)(_) (_)(____)  (__)_) (____)(_) (_)        
+                                                  (_)                                 
+                                                  (_)                                 
+                                                                                      
+                                 by Virus5947 & Xames                                 
+                                                                                      
+ 
+[02:52:11] [Server thread/INFO]: [ᴠᴢʙᴀᴄᴋᴘᴀᴄᴋ] Paper 1.21.4 is compatible with vzBackpack v0.9.1-alpha ✓
+[02:52:11] [Server thread/ERROR]: [ᴠᴢʙᴀᴄᴋᴘᴀᴄᴋ] The server is not in online-mode.
+[02:52:11] [Server thread/INFO]: [vzBackpack] Disabling vzBackpack v0.9.1-alpha
+[02:52:11] [Server thread/INFO]: [spark] Starting background profiler...
+[02:52:11] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[02:52:11] [Server thread/INFO]: [Geyser-Spigot] 
+[02:52:11] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.1-b779 (git-master-758700c)
+[02:52:11] [Server thread/INFO]: [Geyser-Spigot] 
+[02:52:11] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[02:52:15] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[02:52:15] [Server thread/INFO]: [Geyser-Spigot] Done (4.038s)! Run /geyser help for help!
+[02:52:15] [Server thread/INFO]: Done preparing level "world" (9.803s)
+[02:52:15] [Server thread/INFO]: Running delayed init tasks
+[02:52:15] [Server thread/INFO]: Done (23.599s)! For help, type "help"
+[02:57:58] [User Authenticator #0/INFO]: UUID of player hontaryu is 4748979e-918f-378c-a2c3-c90c20d71acb
+[02:57:59] [Server thread/INFO]: hontaryu joined the game
+[02:57:59] [Server thread/INFO]: hontaryu[/127.235.186.1:45441] logged in with entity id 67 at ([world]-286.30840198765173, 73.50105953845609, -85.59153380904877)
+[02:59:17] [Server thread/INFO]: hontaryu lost connection: Disconnected
+[02:59:17] [Server thread/INFO]: hontaryu left the game
+[03:01:40] [User Authenticator #1/INFO]: UUID of player hontaryu is 4748979e-918f-378c-a2c3-c90c20d71acb
+[03:01:41] [Server thread/INFO]: hontaryu joined the game
+[03:01:41] [Server thread/INFO]: hontaryu[/127.235.186.1:42501] logged in with entity id 380 at ([world]-290.4166877374042, 67.0, -72.16434320901087)

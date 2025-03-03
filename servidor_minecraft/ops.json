@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "4748979e-918f-378c-a2c3-c90c20d71acb",
+    "name": "hontaryu",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
