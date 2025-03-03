@@ -95,3 +95,11 @@
 [03:01:41] [Server thread/INFO]: hontaryu[/127.235.186.1:42501] logged in with entity id 380 at ([world]-290.4166877374042, 67.0, -72.16434320901087)
 [03:02:12] [Server thread/INFO]: hontaryu lost connection: Disconnected
 [03:02:12] [Server thread/INFO]: hontaryu left the game
+[03:20:35] [User Authenticator #2/INFO]: UUID of player hontaryu is 4748979e-918f-378c-a2c3-c90c20d71acb
+[03:20:36] [Server thread/INFO]: hontaryu joined the game
+[03:20:36] [Server thread/INFO]: hontaryu[/127.235.186.1:33505] logged in with entity id 464 at ([world]-312.7971235169868, 61.0, -82.18927335825053)
+[03:20:59] [Server thread/INFO]: hontaryu issued server command: /gamemode 1
+[03:21:10] [Server thread/INFO]: hontaryu issued server command: /gamemode survival
+[03:21:10] [Server thread/INFO]: [hontaryu: Set own game mode to Survival Mode]
+[03:21:29] [Server thread/INFO]: hontaryu lost connection: Disconnected
+[03:21:29] [Server thread/INFO]: hontaryu left the game
