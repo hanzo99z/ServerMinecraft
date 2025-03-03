@@ -1,63 +1,124 @@
-[03:35:56] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[03:35:56] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-187-main@1d5e5a5 (2025-02-28T19:53:30Z) for Minecraft 1.21.4
-[03:35:56] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[03:36:01] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
-[03:36:01] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[03:57:33] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[03:57:33] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-187-main@1d5e5a5 (2025-02-28T19:53:30Z) for Minecraft 1.21.4
+[03:57:33] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[03:57:33] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/Graves-4.9.jar'...
+[03:57:33] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
+[03:57:34] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Graves-4.9.jar' in 918ms.
+[03:57:36] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 2452ms.
+[03:57:36] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[03:57:36] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - vzBackpack (0.9.1-alpha)
-[03:36:01] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
- - Geyser-Spigot (2.6.1-SNAPSHOT), Pl3xMap (1.21.4-521), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[03:36:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:36:11] [ServerMain/INFO]: Loaded 1370 recipes
-[03:36:11] [ServerMain/INFO]: Loaded 1481 advancements
-[03:36:11] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[03:36:12] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 257.4ms
-[03:36:12] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[03:36:12] [Server thread/INFO]: Loading properties
-[03:36:12] [Server thread/INFO]: This server is running Paper version 1.21.4-187-main@1d5e5a5 (2025-02-28T19:53:30Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[03:36:12] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[03:36:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:36:13] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:36:14] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[03:36:14] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[03:36:14] [Server thread/INFO]: Default game type: SURVIVAL
-[03:36:14] [Server thread/INFO]: Generating keypair
-[03:36:14] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:36:14] [Server thread/INFO]: Using epoll channel type
-[03:36:14] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[03:36:14] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[03:36:15] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[03:36:17] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[03:36:17] [Server thread/INFO]: [floodgate] Took 1,409ms to boot Floodgate
-[03:36:17] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.1-SNAPSHOT
-[03:36:18] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[03:36:18] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[03:36:18] [Server thread/INFO]: [Pl3xMap] Loading server plugin Pl3xMap v1.21.4-521
-[03:36:18] [Server thread/INFO]: [vzBackpack] Loading server plugin vzBackpack v0.9.1-alpha
-[03:36:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:36:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:36:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:36:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:36:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:36:18] [Server thread/INFO]: Preparing level "world"
-[03:36:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:36:18] [Server thread/INFO]: Preparing spawn area: 0%
-[03:36:19] [Server thread/INFO]: Preparing spawn area: 2%
-[03:36:19] [Server thread/INFO]: Preparing spawn area: 4%
-[03:36:20] [Server thread/INFO]: Time elapsed: 1330 ms
-[03:36:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[03:36:20] [Server thread/INFO]: Preparing spawn area: 0%
-[03:36:20] [Server thread/INFO]: Time elapsed: 361 ms
-[03:36:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[03:36:20] [Server thread/INFO]: Preparing spawn area: 0%
-[03:36:20] [Server thread/INFO]: Time elapsed: 247 ms
-[03:36:20] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[03:36:21] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.1-SNAPSHOT
-[03:36:21] [Server thread/INFO]: [Pl3xMap] Enabling Pl3xMap v1.21.4-521
-[03:36:23] [Server thread/INFO]: [Pl3xMap] [INFO] Internal webserver running on 0.0.0.0:8080
-[03:36:23] [Server thread/INFO]: [Pl3xMap] [INFO] Platform: paper
-[03:36:23] [Server thread/INFO]: [Pl3xMap] [INFO] Version: 1.21.4-521
-[03:36:23] [Server thread/INFO]: [vzBackpack] Enabling vzBackpack v0.9.1-alpha
-[03:36:24] [Server thread/INFO]: 
+[03:57:36] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - Geyser-Spigot (2.6.1-SNAPSHOT), Graves (4.9), Pl3xMap (1.21.4-521), SkinsRestorer (15.5.3), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
+[03:57:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:57:43] [ServerMain/INFO]: Loaded 1370 recipes
+[03:57:43] [ServerMain/INFO]: Loaded 1481 advancements
+[03:57:43] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[03:57:43] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 189.4ms
+[03:57:43] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[03:57:43] [Server thread/INFO]: Loading properties
+[03:57:43] [Server thread/INFO]: This server is running Paper version 1.21.4-187-main@1d5e5a5 (2025-02-28T19:53:30Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[03:57:43] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[03:57:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:57:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:57:44] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[03:57:44] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[03:57:45] [Server thread/INFO]: Default game type: SURVIVAL
+[03:57:45] [Server thread/INFO]: Generating keypair
+[03:57:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:57:45] [Server thread/INFO]: Using epoll channel type
+[03:57:45] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:57:45] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[03:57:45] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[03:57:46] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[03:57:46] [Server thread/INFO]: [floodgate] Took 1,092ms to boot Floodgate
+[03:57:46] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.3
+[03:57:46] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.1-SNAPSHOT
+[03:57:47] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[03:57:47] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[03:57:47] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
+[03:57:47] [Server thread/INFO]: [Pl3xMap] Loading server plugin Pl3xMap v1.21.4-521
+[03:57:47] [Server thread/INFO]: [vzBackpack] Loading server plugin vzBackpack v0.9.1-alpha
+[03:57:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:57:47] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.3
+[03:57:48] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[03:57:48] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.4.
+[03:57:48] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[03:57:49] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[03:57:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:57:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:57:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:57:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:57:49] [Server thread/INFO]: Preparing level "world"
+[03:57:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:57:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[03:57:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[03:57:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
+[03:57:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[03:57:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[03:57:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:57:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.5.3
+[03:57:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: 86e796c
+[03:57:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
+[03:57:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:57:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[03:57:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[03:57:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:57:49] [Server thread/INFO]: Preparing spawn area: 0%
+[03:57:50] [Server thread/INFO]: Preparing spawn area: 2%
+[03:57:50] [Server thread/INFO]: Preparing spawn area: 10%
+[03:57:50] [Server thread/INFO]: Time elapsed: 1030 ms
+[03:57:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:57:50] [Server thread/INFO]: Preparing spawn area: 0%
+[03:57:50] [Server thread/INFO]: Time elapsed: 240 ms
+[03:57:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:57:51] [Server thread/INFO]: Preparing spawn area: 0%
+[03:57:51] [Server thread/INFO]: Time elapsed: 177 ms
+[03:57:51] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[03:57:51] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.1-SNAPSHOT
+[03:57:51] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[03:57:51] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
+[03:57:51] [Server thread/ERROR]: Error occurred while enabling Graves v4.9 (Is it up to date?)
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at Graves-4.9.jar/com.ranull.graves.manager.VersionManager.<init>(VersionManager.java:23) ~[Graves-4.9.jar:?]
+	at Graves-4.9.jar/com.ranull.graves.Graves.onEnable(Graves.java:66) ~[Graves-4.9.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:657) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:606) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[03:57:51] [Server thread/INFO]: [Graves] Disabling Graves v4.9
+[03:57:51] [Server thread/ERROR]: Error occurred while disabling Graves v4.9
+java.lang.NullPointerException: Cannot invoke "com.ranull.graves.manager.DataManager.closeConnection()" because "this.dataManager" is null
+	at Graves-4.9.jar/com.ranull.graves.Graves.onDisable(Graves.java:95) ~[Graves-4.9.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:286) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:206) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:657) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:606) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[03:57:51] [Server thread/INFO]: [Pl3xMap] Enabling Pl3xMap v1.21.4-521
+[03:57:53] [Server thread/INFO]: [Pl3xMap] [INFO] Internal webserver running on 0.0.0.0:8080
+[03:57:53] [Server thread/INFO]: [Pl3xMap] [INFO] Platform: paper
+[03:57:53] [Server thread/INFO]: [Pl3xMap] [INFO] Version: 1.21.4-521
+[03:57:53] [Server thread/INFO]: [vzBackpack] Enabling vzBackpack v0.9.1-alpha
+[03:57:53] [Server thread/INFO]: 
 
                                                                                       
                       _____                 _                           _             
@@ -72,89 +133,96 @@
                                  by Virus5947 & Xames                                 
                                                                                       
  
-[03:36:24] [Server thread/INFO]: [ᴠᴢʙᴀᴄᴋᴘᴀᴄᴋ] Paper 1.21.4 is compatible with vzBackpack v0.9.1-alpha ✓
-[03:36:24] [Server thread/ERROR]: [ᴠᴢʙᴀᴄᴋᴘᴀᴄᴋ] The server is not in online-mode.
-[03:36:24] [Server thread/INFO]: [vzBackpack] Disabling vzBackpack v0.9.1-alpha
-[03:36:24] [Server thread/INFO]: [spark] Starting background profiler...
-[03:36:24] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[03:36:24] [Server thread/INFO]: [Geyser-Spigot] 
-[03:36:24] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.1-b779 (git-master-758700c)
-[03:36:24] [Server thread/INFO]: [Geyser-Spigot] 
-[03:36:24] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[03:36:28] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[03:36:28] [Server thread/INFO]: [Geyser-Spigot] Done (3.971s)! Run /geyser help for help!
-[03:36:28] [Server thread/INFO]: Done preparing level "world" (10.454s)
-[03:36:28] [Server thread/INFO]: Running delayed init tasks
-[03:36:28] [Server thread/INFO]: Done (34.364s)! For help, type "help"
-[03:36:33] [User Authenticator #0/INFO]: UUID of player hontaryu is 4748979e-918f-378c-a2c3-c90c20d71acb
-[03:36:34] [Server thread/INFO]: hontaryu joined the game
-[03:36:34] [Server thread/INFO]: hontaryu[/127.235.186.1:49223] logged in with entity id 103 at ([world]-313.84506471709, 72.0, -102.83055362760021)
-[03:38:30] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username RusticBoot15366
-[03:38:30] [localSession-7-2/INFO]: [Geyser-Spigot] RusticBoot15366 (logged in as: RusticBoot15366) has connected to the Java server
-[03:38:31] [Server thread/INFO]: [floodgate] Floodgate player logged in as .RusticBoot15366 joined (UUID: 00000000-0000-0000-0009-01fa47ce85c9)
-[03:38:31] [Server thread/INFO]: .RusticBoot15366 joined the game
-[03:38:31] [Server thread/INFO]: .RusticBoot15366[/127.0.0.1:0] logged in with entity id 396 at ([world]-284.5, 66.0, -68.5)
-[03:40:29] [Server thread/INFO]: hontaryu has made the advancement [Stone Age]
-[03:41:07] [Server thread/INFO]: .RusticBoot15366 has made the advancement [Stone Age]
-[03:42:20] [Server thread/INFO]: .RusticBoot15366 has made the advancement [Getting an Upgrade]
-[03:44:57] [Server thread/INFO]: hontaryu issued server command: /gamemode creative
-[03:44:57] [Server thread/INFO]: [hontaryu: Set own game mode to Creative Mode]
-[03:45:07] [Server thread/INFO]: hontaryu issued server command: /gamemode survival
-[03:45:07] [Server thread/INFO]: [hontaryu: Set own game mode to Survival Mode]
-[03:48:12] [Server thread/INFO]: hontaryu issued server command: /vzbackpack
-[03:48:28] [Server thread/INFO]: hontaryu issued server command: /plugins
-[03:48:49] [Server thread/INFO]: hontaryu issued server command: /version vzBackpack
-[03:48:52] [Server thread/INFO]: hontaryu issued server command: /version vzBackpack
-[03:48:53] [Server thread/INFO]: hontaryu issued server command: /version vzBackpack
-[03:49:22] [Server thread/INFO]: hontaryu issued server command: /gamemode creative
-[03:49:22] [Server thread/INFO]: [hontaryu: Set own game mode to Creative Mode]
-[03:51:20] [Server thread/INFO]: .RusticBoot15366 has made the advancement [Monster Hunter]
-[03:52:49] [Server thread/INFO]: .RusticBoot15366 was slain by Zombie
-[03:56:02] [Server thread/INFO]: .RusticBoot15366 was shot by Skeleton
-[03:56:06] [Server thread/INFO]: Made RusticBoot15366op a server operator
-[03:57:04] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[03:57:04] [Server thread/INFO]: hontaryu lost connection: Server is restarting
-[03:57:04] [Server thread/INFO]: hontaryu left the game
-[03:57:04] [Server thread/INFO]: .RusticBoot15366 lost connection: Server is restarting
-[03:57:04] [localSession-7-2/INFO]: [Geyser-Spigot] RusticBoot15366 has disconnected from the Java server because of Server is restarting
-[03:57:04] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .RusticBoot15366 disconnected
-[03:57:04] [Server thread/INFO]: .RusticBoot15366 left the game
-[03:57:04] [Server thread/INFO]: Stopping server
-[03:57:04] [Server thread/INFO]: [Pl3xMap] Disabling Pl3xMap v1.21.4-521
-[03:57:04] [Server thread/INFO]: [Pl3xMap] [INFO] Internal webserver stopped
-[03:57:04] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.1-SNAPSHOT
-[03:57:04] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[03:57:05] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[03:57:05] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[03:57:05] [Server thread/INFO]: Saving players
-[03:57:05] [Server thread/INFO]: Saving worlds
-[03:57:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03:57:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[03:57:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[03:57:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[03:57:05] [WebSocketConnectReadThread-92/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[03:57:05] [Server thread/INFO]: [ChunkHolderManager] Saved 395 block chunks, 339 entity chunks, 1 poi chunks in world 'world' in 0.51s
-[03:57:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[03:57:05] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[03:57:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[03:57:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[03:57:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[03:57:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[03:57:05] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[03:57:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[03:57:05] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[03:57:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[03:57:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[03:57:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[03:57:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[03:57:05] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[03:57:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[03:57:05] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[03:57:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:57:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:57:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:57:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[03:57:05] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[03:57:05] [Server thread/INFO]: All I/O tasks to complete
-[03:57:05] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[03:57:05] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[03:57:53] [Server thread/INFO]: [ᴠᴢʙᴀᴄᴋᴘᴀᴄᴋ] Paper 1.21.4 is compatible with vzBackpack v0.9.1-alpha ✓
+[03:57:53] [Server thread/ERROR]: [ᴠᴢʙᴀᴄᴋᴘᴀᴄᴋ] The server is not in online-mode.
+[03:57:53] [Server thread/INFO]: [vzBackpack] Disabling vzBackpack v0.9.1-alpha
+[03:57:53] [Server thread/INFO]: [spark] Starting background profiler...
+[03:57:53] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[03:57:53] [Server thread/INFO]: [Geyser-Spigot] 
+[03:57:53] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.1-b779 (git-master-758700c)
+[03:57:53] [Server thread/INFO]: [Geyser-Spigot] 
+[03:57:53] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[03:57:57] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[03:57:57] [Server thread/INFO]: [Geyser-Spigot] Done (4.071s)! Run /geyser help for help!
+[03:57:58] [Server thread/INFO]: Done preparing level "world" (9.061s)
+[03:57:58] [Server thread/INFO]: Running delayed init tasks
+[03:57:58] [Server thread/INFO]: Done (25.667s)! For help, type "help"
+[03:58:16] [User Authenticator #0/INFO]: UUID of player hontaryu is 4748979e-918f-378c-a2c3-c90c20d71acb
+[03:58:17] [Server thread/INFO]: hontaryu joined the game
+[03:58:17] [Server thread/INFO]: hontaryu[/127.235.186.1:41011] logged in with entity id 17 at ([world]-567.3618824173619, 88.0, 169.5473675845898)
+[03:58:28] [Server thread/INFO]: hontaryu issued server command: /kill
+[03:58:28] [Server thread/INFO]: hontaryu was killed
+[03:58:28] [Server thread/INFO]: [hontaryu: Killed hontaryu]
+[03:58:44] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username RusticBoot15366
+[03:58:44] [localSession-7-2/INFO]: [Geyser-Spigot] RusticBoot15366 (logged in as: RusticBoot15366) has connected to the Java server
+[03:58:44] [Server thread/INFO]: [floodgate] Floodgate player logged in as .RusticBoot15366 joined (UUID: 00000000-0000-0000-0009-01fa47ce85c9)
+[03:58:44] [Server thread/INFO]: .RusticBoot15366 joined the game
+[03:58:44] [Server thread/INFO]: .RusticBoot15366[/127.0.0.1:0] logged in with entity id 643 at ([world]-380.72296, 71.0, 144.54349)
+[03:59:40] [Server thread/INFO]: .RusticBoot15366 was slain by hontaryu
+[03:59:54] [Server thread/INFO]: hontaryu issued server command: /tp .RusticBoot15366
+[03:59:54] [Server thread/INFO]: [hontaryu: Teleported hontaryu to .RusticBoot15366]
+[04:00:08] [Server thread/INFO]: hontaryu issued server command: /kill .RusticBoot15366
+[04:00:08] [Server thread/INFO]: .RusticBoot15366 was killed
+[04:00:08] [Server thread/INFO]: [hontaryu: Killed .RusticBoot15366]
+[04:00:16] [Server thread/INFO]: hontaryu issued server command: /tp .RusticBoot15366
+[04:00:16] [Server thread/INFO]: [hontaryu: Teleported hontaryu to .RusticBoot15366]
+[04:00:28] [Server thread/INFO]: hontaryu issued server command: /op .RusticBoot15366
+[04:00:28] [Server thread/INFO]: [hontaryu: Made .RusticBoot15366 a server operator]
+[04:04:31] [Server thread/INFO]: .RusticBoot15366 issued server command: /skin set tu
+[04:05:24] [Server thread/INFO]: .RusticBoot15366 issued server command: /skin set RustucBoot15366
+[04:06:31] [Server thread/INFO]: .RusticBoot15366 issued server command: /skin set .RusticBoot15366
+[04:08:28] [Server thread/INFO]: .RusticBoot15366 issued server command: /mode creative
+[04:08:37] [Async Chat Thread - #0/INFO]: [Not Secure] <hontaryu> gamemode creative
+[04:08:40] [Server thread/INFO]: .RusticBoot15366 issued server command: /defaultgamemode creative
+[04:08:40] [Server thread/INFO]: [.RusticBoot15366: The default game mode is now Creative Mode]
+[04:09:19] [Server thread/INFO]: .RusticBoot15366 issued server command: /gamemode creative
+[04:09:19] [Server thread/INFO]: [.RusticBoot15366: Set own game mode to Creative Mode]
+[04:09:34] [Server thread/INFO]: .RusticBoot15366 issued server command: /defaultgamemode survival
+[04:09:34] [Server thread/INFO]: [.RusticBoot15366: The default game mode is now Survival Mode]
+[04:09:57] [Server thread/INFO]: hontaryu lost connection: Disconnected
+[04:09:57] [Server thread/INFO]: hontaryu left the game
+[04:10:00] [localSession-7-2/INFO]: [Geyser-Spigot] RusticBoot15366 has disconnected from the Java server because of Bedrock client disconnected
+[04:10:00] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .RusticBoot15366 disconnected
+[04:10:00] [Server thread/INFO]: .RusticBoot15366 lost connection: Disconnected
+[04:10:00] [Server thread/INFO]: .RusticBoot15366 left the game
+[04:11:06] [Server thread/INFO]: Stopping the server
+[04:11:06] [Server thread/INFO]: Stopping server
+[04:11:06] [Server thread/INFO]: [Pl3xMap] Disabling Pl3xMap v1.21.4-521
+[04:11:06] [Server thread/INFO]: [Pl3xMap] [INFO] Internal webserver stopped
+[04:11:06] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.1-SNAPSHOT
+[04:11:06] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[04:11:06] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[04:11:06] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.3
+[04:11:06] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[04:11:06] [Server thread/INFO]: Saving players
+[04:11:07] [Server thread/INFO]: Saving worlds
+[04:11:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:11:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[04:11:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[04:11:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[04:11:07] [WebSocketConnectReadThread-110/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[04:11:07] [Server thread/INFO]: [ChunkHolderManager] Saved 112 block chunks, 181 entity chunks, 0 poi chunks in world 'world' in 0.28s
+[04:11:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[04:11:07] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[04:11:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:11:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[04:11:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[04:11:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[04:11:07] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[04:11:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[04:11:07] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[04:11:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:11:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[04:11:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[04:11:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[04:11:07] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[04:11:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[04:11:07] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[04:11:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:11:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:11:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:11:07] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:11:07] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[04:11:07] [Server thread/INFO]: All I/O tasks to complete
+[04:11:07] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[04:11:07] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
