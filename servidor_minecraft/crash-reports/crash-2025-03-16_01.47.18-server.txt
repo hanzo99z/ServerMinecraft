@@ -1,7 +1,7 @@
 ---- Minecraft Crash Report ----
-// This doesn't make any sense!
+// But it works on my machine.
 
-Time: 2025-03-16 01:43:18
+Time: 2025-03-16 01:47:18
 Description: Exception in server tick loop
 
 java.lang.IllegalStateException: Failed to initialize server
@@ -20,7 +20,7 @@ Details:
 	Operating System: Linux (amd64) version 6.8.0-1021-azure
 	Java Version: 21.0.6, Ubuntu
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
-	Memory: 1966247832 bytes (1875 MiB) / 2147483648 bytes (2048 MiB) up to 17179869184 bytes (16384 MiB)
+	Memory: 1861843712 bytes (1775 MiB) / 2147483648 bytes (2048 MiB) up to 17179869184 bytes (16384 MiB)
 	CPUs: 4
 	Processor Vendor: AuthenticAMD
 	Processor Name: AMD EPYC 7763 64-Core Processor
@@ -36,20 +36,20 @@ Details:
 	Graphics card #0 deviceId: unknown
 	Graphics card #0 versionInfo: unknown
 	Virtual memory max (MiB): 7995.02
-	Virtual memory used (MiB): 4918.16
+	Virtual memory used (MiB): 5072.70
 	Swap memory total (MiB): 0.00
 	Swap memory used (MiB): 0.00
 	Space in storage for jna.tmpdir (MiB): <path not set>
 	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
 	Space in storage for io.netty.native.workdir (MiB): <path not set>
 	Space in storage for java.io.tmpdir (MiB): available: 95076.64, total: 120377.56
-	Space in storage for workdir (MiB): available: 17910.70, total: 32077.81
+	Space in storage for workdir (MiB): available: 17895.59, total: 32077.81
 	JVM Flags: 2 total; -Xms2G -Xmx16G
 	Server Running: true
 	Active Data Packs: vanilla
 	Available Data Packs: bundle, trade_rebalance, vanilla
 	Enabled Feature Flags: minecraft:vanilla
 	World Generation: Stable
-	World Seed: 7090414801419039085
+	World Seed: 1650201081380714901
 	Is Modded: Definitely; Server brand changed to 'fabric'
 	Type: Dedicated Server (map_server.txt)
